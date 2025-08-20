@@ -1,7 +1,7 @@
 CREATE TABLE employees (
     id INT PRIMARY KEY,
     name VARCHAR(50),
-    job_title VARCHAR(100)
+    job_title VARCHAR(50)
 );
 
 INSERT INTO employees VALUES (1, 'Anna', 'Designer');
